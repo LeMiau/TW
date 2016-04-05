@@ -7,16 +7,12 @@
 #nav {
     line-height:30px;
     background-color:black;
-    height:500px;
-    width:200px;
     float:right;
+    height:500px;
+    width:20%;  
     padding:10px;	      
-}
-#section {
-    width:1000px;
-    float:left;
-    padding:10px;	 	 
-}
+
+ }
 #footer {
     background-color:lightblue;
     color:black;
@@ -51,4 +47,16 @@
     -ms-transform: rotate(10deg); 
     -webkit-transform: rotate(10deg); 
     transform: rotate(10deg); 
+}
+/* responsive code */
+/* pt smartphoneuri portrait mode */
+@media all and (max-width: 415px) {
+    #section {
+    width: 70%;
+    font-size: 3em;
+    }
+    #nav {
+        width: 20%;
+        font-size: 1.3em;
+    }
 }
